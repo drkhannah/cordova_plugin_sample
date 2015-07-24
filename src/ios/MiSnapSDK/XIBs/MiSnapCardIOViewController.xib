@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MiSnapCardIOViewController">
+            <connections>
+                <outlet property="cancelButton" destination="uk1-be-9Np" id="bI3-Ss-HKB"/>
+                <outlet property="guideColorSampleLabel" destination="T3I-TO-UJx" id="IvN-1x-h4a"/>
+                <outlet property="view" destination="iN0-l3-epB" id="VpV-u4-6Mn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change the background color of this label to change the Card.IO guide color." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="246" translatesAutoresizingMaskIntoConstraints="NO" id="T3I-TO-UJx">
+                    <rect key="frame" x="20" y="217" width="246" height="83"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uk1-be-9Np" userLabel="Button - Cancel">
+                    <rect key="frame" x="13" y="13" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="6e3-7H-d2x"/>
+                        <constraint firstAttribute="width" constant="38" id="qPi-wu-4fc"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="camera_cancel_icon.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonClicked:" destination="-1" eventType="touchUpInside" id="qxP-7g-iAU"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="misnap_powered_by_mitek.png" translatesAutoresizingMaskIntoConstraints="NO" id="wR2-cS-0Q1">
+                    <rect key="frame" x="442" y="283" width="106" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="106" id="9N6-Sw-tg3"/>
+                        <constraint firstAttribute="height" constant="27" id="WEQ-yn-2SP"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wR2-cS-0Q1" secondAttribute="bottom" constant="10" id="5WL-Mh-vvu"/>
+                <constraint firstItem="uk1-be-9Np" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="13" id="6Gj-As-15k"/>
+                <constraint firstItem="uk1-be-9Np" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="6vz-YS-WBp"/>
+                <constraint firstAttribute="trailing" secondItem="wR2-cS-0Q1" secondAttribute="trailing" constant="20" id="ObS-Jl-yZB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_cancel_icon.png" width="128" height="128"/>
+        <image name="misnap_powered_by_mitek.png" width="300" height="54"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

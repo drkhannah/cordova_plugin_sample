@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="com.keybank.MiSnapPlugin"
+  version="0.0.1">
+
+    <name>MiSnapPlugin</name>
+    <description>MiSnapPlugin Custom Plugin Made by Derek Hannah</description>
+    <author>KeyBank</author>
+    <license>Apache 2.0 License</license>
+    <engines>
+        <engine name="cordova" version=">=3.5.0" />
+    </engines>
+    <js-module src="www/MiSnapPlugin.js" name="MiSnapPlugin">
+        <clobbers target="MiSnapPlugin" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MiSnapPlugin">
+                <param name="ios-package" value="MiSnapPlugin" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/MiSnapSDK/include/MiSnap.h" />
+        <header-file src="src/ios/MiSnapPlugin.h" />
+        
+        
+        <source-file src="src/ios/MiSnapPlugin.m" />
+        
+        <source-file src="src/ios/MiSnapSDK/libMiSnap.a" framework="true" />
+        <source-file src="src/ios/MiSnapSDK/ThirdPartyLibs/StubVersions/libCardIOStub.a" framework="true" />
+        <framework src="AudioToolbox.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="CoreGraphics.framework" />
+        <framework src="CoreMedia.framework" />
+        <framework src="CoreVideo.framework" />
+        <framework src="MobileCoreServices.framework" />
+        <framework src="QuartzCore.framework" />
+        <framework src="OpenGLES.framework" />
+        <framework src="Security.framework" />
+        <framework src="ImageIO.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="UIKit.framework" />
+    </platform>
+    <!--<platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="HelloWorldPlugin"> 
+                <param name="android-package" value="mobi.monaca.HelloWorldPlugin"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/mobi/monaca/HelloWorldPlugin.java" target-dir="src/mobi/monaca" />        
+    </platform>-->
+
+</plugin>

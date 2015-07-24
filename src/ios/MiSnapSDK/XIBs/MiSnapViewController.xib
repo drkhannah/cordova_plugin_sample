@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MiSnapViewController">
+            <connections>
+                <outlet property="imageView" destination="zYo-p8-h63" id="EIs-Hs-5zE"/>
+                <outlet property="overlayView" destination="buF-gS-zlV" id="xGs-Tb-V7s"/>
+                <outlet property="previewView" destination="5nW-Rj-dWw" id="G08-cO-GdZ"/>
+                <outlet property="view" destination="Iql-9e-YsO" id="jdM-mi-5qP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" id="Iql-9e-YsO">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="5nW-Rj-dWw" userLabel="View - Preview">
+                    <rect key="frame" x="0.0" y="1" width="568" height="319"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5nW-Rj-dWw" secondAttribute="height" multiplier="16:9" id="Vbb-x7-Hzs"/>
+                    </constraints>
+                </view>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYo-p8-h63">
+                    <rect key="frame" x="164" y="96" width="240" height="128"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="zYo-p8-h63" secondAttribute="height" multiplier="16:9" id="qp9-Xj-UzJ"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleAspectFit" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="buF-gS-zlV" userLabel="View - Overlay" customClass="DC_OverlayView">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="319"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="mitek_vignette.png" translatesAutoresizingMaskIntoConstraints="NO" id="RrT-bQ-6wZ" userLabel="Image View - Vignette Image">
+                            <rect key="frame" x="0.0" y="0.0" width="568" height="319"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="manual_ghost_checkfront.png" translatesAutoresizingMaskIntoConstraints="NO" id="V37-qZ-dat" userLabel="Image View - Ghost Image">
+                            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            <accessibility key="accessibilityConfiguration" hint="" label="">
+                                <accessibilityTraits key="traits" none="YES"/>
+                                <bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="568" id="n5K-dA-gT7"/>
+                                <constraint firstAttribute="height" constant="320" id="nL4-k1-ONt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oce-1r-4ft">
+                            <rect key="frame" x="0.0" y="17" width="568" height="28"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="nOs-56-0BN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="shadowOffset" width="1" height="1"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="misnap_powered_by_mitek.png" translatesAutoresizingMaskIntoConstraints="NO" id="CcY-SJ-yLS" userLabel="Image View - Logo">
+                            <rect key="frame" x="344" y="287" width="103" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="103" id="8UU-Oh-B5f"/>
+                                <constraint firstAttribute="height" constant="27" id="cDT-DM-MsW"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fiz-jl-ewe" userLabel="Image View - Snap Animation">
+                            <rect key="frame" x="212" y="76" width="143" height="167"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="167" id="i8k-5l-FF7"/>
+                                <constraint firstAttribute="width" constant="143" id="ope-NZ-67d"/>
+                            </constraints>
+                        </imageView>
+                        <view hidden="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="Agt-RB-iqv" userLabel="View - Bounding Rectangle">
+                            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="320" id="0SH-kj-Qkw"/>
+                                <constraint firstAttribute="width" constant="568" id="1pv-hE-2qH"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" image="misnap_doc_center.png" translatesAutoresizingMaskIntoConstraints="NO" id="jO5-7U-D3c" userLabel="Image View - Center Guide">
+                            <rect key="frame" x="264" y="140" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="4vm-mt-UF1"/>
+                                <constraint firstAttribute="height" constant="40" id="PIr-NO-vP9"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="441" placeholderIntrinsicHeight="48" image="gauge_fill_00.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-Mm-gML" userLabel="Image View - Gauge">
+                            <rect key="frame" x="58" y="250" width="441" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="441" id="A5H-9V-8Uo"/>
+                                <constraint firstAttribute="height" constant="48" id="xhy-dk-2GZ"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpH-do-LHU" userLabel="Button - Cancel">
+                            <rect key="frame" x="11" y="14" width="48" height="48"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="hYn-tr-zLX"/>
+                                <constraint firstAttribute="height" constant="48" id="hii-Bg-SqG"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="camera_cancel_icon.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelButtonClicked:" destination="-1" eventType="touchUpInside" id="RSw-eM-8vD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2f-2V-vb9" userLabel="Button - Help">
+                            <rect key="frame" x="445" y="14" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="ogu-nm-TEG"/>
+                                <constraint firstAttribute="height" constant="36" id="tFA-HW-i4h"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="button_help.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="helpButtonClicked:" destination="-1" eventType="touchUpInside" id="OAm-NC-iyZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cq-xd-lT2" userLabel="Button - Torch">
+                            <rect key="frame" x="507" y="14" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="Ad1-gq-ZMK"/>
+                                <constraint firstAttribute="height" constant="36" id="kxl-op-YOa"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="icon_flash_off.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="torchButtonClicked:" destination="-1" eventType="touchUpInside" id="B94-ig-wvk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPR-6f-kTe" userLabel="Button - Snap">
+                            <rect key="frame" x="507" y="257" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="Jex-3K-kqd"/>
+                                <constraint firstAttribute="width" constant="48" id="dTE-0A-Gxh"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="camera_shutter_icon.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="snapButtonClicked:" destination="-1" eventType="touchUpInside" id="c7W-KL-Nnh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="RrT-bQ-6wZ" secondAttribute="trailing" id="1Qa-0q-aOa"/>
+                        <constraint firstAttribute="width" secondItem="buF-gS-zlV" secondAttribute="height" multiplier="16:9" id="4jj-9n-CBY"/>
+                        <constraint firstAttribute="centerY" secondItem="V37-qZ-dat" secondAttribute="centerY" id="4qM-jO-zSy"/>
+                        <constraint firstAttribute="centerY" secondItem="jO5-7U-D3c" secondAttribute="centerY" id="5SS-gY-vwu"/>
+                        <constraint firstAttribute="centerX" secondItem="Agt-RB-iqv" secondAttribute="centerX" id="Ahb-tz-wp2"/>
+                        <constraint firstItem="Oce-1r-4ft" firstAttribute="leading" secondItem="buF-gS-zlV" secondAttribute="leading" id="Dv7-SB-5fH"/>
+                        <constraint firstAttribute="bottom" secondItem="0Ph-Mm-gML" secondAttribute="bottom" constant="21" id="FlZ-Fp-SIR"/>
+                        <constraint firstAttribute="trailing" secondItem="CcY-SJ-yLS" secondAttribute="trailing" constant="121" id="InB-Ll-UWb"/>
+                        <constraint firstItem="NpH-do-LHU" firstAttribute="top" secondItem="buF-gS-zlV" secondAttribute="top" constant="14" id="Prc-qm-oWH"/>
+                        <constraint firstAttribute="bottom" secondItem="CcY-SJ-yLS" secondAttribute="bottom" constant="5" id="Q0z-vb-TYu"/>
+                        <constraint firstItem="NpH-do-LHU" firstAttribute="leading" secondItem="buF-gS-zlV" secondAttribute="leading" constant="11" id="UL6-KY-8gR"/>
+                        <constraint firstItem="o2f-2V-vb9" firstAttribute="top" secondItem="buF-gS-zlV" secondAttribute="top" constant="14" id="Vse-nH-sSf"/>
+                        <constraint firstAttribute="centerX" secondItem="jO5-7U-D3c" secondAttribute="centerX" id="cm4-1i-VQ9"/>
+                        <constraint firstItem="RrT-bQ-6wZ" firstAttribute="top" secondItem="buF-gS-zlV" secondAttribute="top" id="dCs-xS-ntT"/>
+                        <constraint firstAttribute="centerX" secondItem="V37-qZ-dat" secondAttribute="centerX" id="ebk-lF-9Tc"/>
+                        <constraint firstAttribute="centerX" secondItem="Fiz-jl-ewe" secondAttribute="centerX" constant="0.5" id="hQb-gK-l7J"/>
+                        <constraint firstAttribute="trailing" secondItem="Oce-1r-4ft" secondAttribute="trailing" id="i8L-pi-EY9"/>
+                        <constraint firstAttribute="centerX" secondItem="0Ph-Mm-gML" secondAttribute="centerX" constant="5.5" id="ixf-2j-gxy"/>
+                        <constraint firstAttribute="bottom" secondItem="RrT-bQ-6wZ" secondAttribute="bottom" id="ptD-sZ-VIV"/>
+                        <constraint firstAttribute="centerY" secondItem="Agt-RB-iqv" secondAttribute="centerY" id="qbw-SD-9OE"/>
+                        <constraint firstItem="RrT-bQ-6wZ" firstAttribute="leading" secondItem="buF-gS-zlV" secondAttribute="leading" id="rDq-0C-nHV"/>
+                        <constraint firstAttribute="trailing" secondItem="3cq-xd-lT2" secondAttribute="trailing" constant="25" id="scN-kh-uf5"/>
+                        <constraint firstAttribute="trailing" secondItem="bPR-6f-kTe" secondAttribute="trailing" constant="13" id="sr4-FK-NG3"/>
+                        <constraint firstItem="Oce-1r-4ft" firstAttribute="top" secondItem="buF-gS-zlV" secondAttribute="top" constant="17" id="u1f-er-gJp"/>
+                        <constraint firstItem="3cq-xd-lT2" firstAttribute="top" secondItem="buF-gS-zlV" secondAttribute="top" constant="14" id="vqW-NF-F9B"/>
+                        <constraint firstAttribute="bottom" secondItem="bPR-6f-kTe" secondAttribute="bottom" constant="14" id="wbj-oL-HJR"/>
+                        <constraint firstAttribute="trailing" secondItem="o2f-2V-vb9" secondAttribute="trailing" constant="87" id="yLN-72-8kH"/>
+                        <constraint firstAttribute="centerY" secondItem="Fiz-jl-ewe" secondAttribute="centerY" id="ye0-rU-zBW"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="boundingRectangleView" destination="Agt-RB-iqv" id="I29-PV-0yP"/>
+                        <outlet property="cancelButton" destination="NpH-do-LHU" id="pTO-OV-1tM"/>
+                        <outlet property="gaugeImageView" destination="0Ph-Mm-gML" id="jCm-MW-Lrv"/>
+                        <outlet property="ghostImageView" destination="V37-qZ-dat" id="0Kq-CY-FhJ"/>
+                        <outlet property="guideImageView" destination="jO5-7U-D3c" id="hGe-sv-R16"/>
+                        <outlet property="helpButton" destination="o2f-2V-vb9" id="eki-au-NPH"/>
+                        <outlet property="jobTitleLabel" destination="Oce-1r-4ft" id="omW-RQ-g57"/>
+                        <outlet property="logoImageView" destination="CcY-SJ-yLS" id="EfQ-Wb-uww"/>
+                        <outlet property="snapAnimationView" destination="Fiz-jl-ewe" id="SJl-7K-0VX"/>
+                        <outlet property="snapButton" destination="bPR-6f-kTe" id="6bt-xx-Arp"/>
+                        <outlet property="torchButton" destination="3cq-xd-lT2" id="SRk-z7-ysk"/>
+                        <outlet property="vignetteImageView" destination="RrT-bQ-6wZ" id="Z0v-4C-p8S"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="buF-gS-zlV" secondAttribute="centerX" id="0MP-LY-e6h"/>
+                <constraint firstAttribute="trailing" secondItem="zYo-p8-h63" secondAttribute="trailing" id="7IB-51-zag"/>
+                <constraint firstAttribute="centerY" secondItem="zYo-p8-h63" secondAttribute="centerY" id="8BI-CG-ZiC"/>
+                <constraint firstAttribute="trailing" secondItem="buF-gS-zlV" secondAttribute="trailing" id="A2j-DX-Z6i"/>
+                <constraint firstAttribute="centerY" secondItem="5nW-Rj-dWw" secondAttribute="centerY" id="AGl-sz-9Ln"/>
+                <constraint firstItem="5nW-Rj-dWw" firstAttribute="leading" secondItem="Iql-9e-YsO" secondAttribute="leading" id="Dv1-jT-PN7"/>
+                <constraint firstItem="buF-gS-zlV" firstAttribute="leading" secondItem="Iql-9e-YsO" secondAttribute="leading" id="IPl-0d-c7E"/>
+                <constraint firstAttribute="centerX" secondItem="5nW-Rj-dWw" secondAttribute="centerX" id="K82-HZ-mmD"/>
+                <constraint firstItem="zYo-p8-h63" firstAttribute="leading" secondItem="Iql-9e-YsO" secondAttribute="leading" id="QVp-Q6-KyT"/>
+                <constraint firstAttribute="trailing" secondItem="5nW-Rj-dWw" secondAttribute="trailing" id="Rhm-Uj-iph"/>
+                <constraint firstAttribute="centerY" secondItem="buF-gS-zlV" secondAttribute="centerY" id="yLC-SU-gI4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_help.png" width="100" height="100"/>
+        <image name="camera_cancel_icon.png" width="128" height="128"/>
+        <image name="camera_shutter_icon.png" width="128" height="128"/>
+        <image name="gauge_fill_00.png" width="1000" height="108"/>
+        <image name="icon_flash_off.png" width="100" height="100"/>
+        <image name="manual_ghost_checkfront.png" width="1000" height="460"/>
+        <image name="misnap_doc_center.png" width="208" height="208"/>
+        <image name="misnap_powered_by_mitek.png" width="300" height="54"/>
+        <image name="mitek_vignette.png" width="1136" height="640"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

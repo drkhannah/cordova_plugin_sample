@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  MiSnap
+
+  Copyright (c) 2014 Mitek Systems, Inc. All rights reserved.
+*/
+
+"dialog_mitek_cancel"           = "Cancelar";
+"dialog_mitek_capture"          = "Continuar";
+"dialog_mitek_try_again"        = "Intentar de nuevo";
+"dialog_mitek_manual_capture"   = "Captura Manual";
+"misnap_check_front_text"       = "Imagen Frontal";
+"misnap_check_back_text"        = "Imagen Posterior";
+
+"misnap_tutorial_check"                 = "Centre el cheque, la foto se tomará automáticamente";
+"misnap_tutorial_document"              = "Centre el documento, la foto se tomará automáticamente";
+"help_failover_check"                   = "Centre el cheque con las 4 esquinas visibles y presione el botón Snap Photo (tomar foto) cuando esté listo";
+"help_failover_document"                = "Centre el documento con las 4 esquinas visibles y presione el botón Snap Photo (tomar foto) cuando esté listo";
+"help_check"                            = "Trate de colocar el cheque en una superficie oscura, bien iluminada y no lo mueva, le tomaremos la foto";
+"help_document"                         = "Trate de colocar el documento en una superficie oscura, bien iluminada y no lo mueva, le tomaremos la foto";
+"help_manual_check"                     = "Coloque el cheque en una superficie oscura, bien iluminada con las 4 esquinas visibles, presione el botón Snap Photo (tomar foto) cuando esté listo";
+"help_manual_document"                  = "Coloque el documento en una superficie oscura, bien iluminada con las 4 esquinas visibles, presione el botón Snap Photo (tomar foto) cuando esté listo";
+"ghost_image_remittance"                = "Centre el talón del recibo de pago aquí y espere, le tomaremos la foto";
+"ghost_image_remittance_manual"         = "Centre el talón del recibo de pago aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo";
+"ghost_image_check"                     = "Centre el cheque aquí y espere, le tomaremos la foto";
+"ghost_image_check_manual"              = "Centre el cheque aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo";
+"ghost_image_drivers_license"           = "Centre la licencia de conducir aquí y espere, le tomaremos la foto";
+"ghost_image_drivers_license_manual"    = "Centre la licencia de conducir aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo";
+
+"button_cancel"                 = "Cancelar";
+"more_light"                    = "Más luz";
+"hold_steady"                   = "Mantener estable";
+"get_close"                     = "Acercamiento";
+"hold_center"                   = "Centrar";
+"misnap_overlay_cancel_button"  = "Cancelar";
+"misnap_overlay_capture_button" = "Capturar imagen";
+"misnap_overlay_flash_toggle"   = "Flash";
+"misnap_overlay_help_button"    = "Ayuda";
+
+/*
+";<string name="misnap_tutorial_check">Centre el cheque, la foto se tomará automáticamente</string>
+<string name="misnap_tutorial_document">Centre el documento, la foto se tomará automáticamente</string>
+<string name="help_failover_check">Centre el cheque con las 4 esquinas visibles y presione el botón Snap Photo (tomar foto) cuando esté listo.</string>
+<string name="help_failover_document">Centre el documento con las 4 esquinas visibles y presione el botón Snap Photo (tomar foto) cuando esté listo.</string>
+<string name="help_check">Trate de colocar el cheque en una superficie oscura, bien iluminada y no lo mueva, le tomaremos la foto.</string>
+<string name="help_document">Trate de colocar el documento en una superficie oscura, bien iluminada y no lo mueva, le tomaremos la foto.</string>
+<string name="help_manual_check">Coloque el cheque en una superficie oscura, bien iluminada con las 4 esquinas visibles, presione el botón Snap Photo (tomar foto) cuando esté listo</string>
+<string name="help_manual_document">Coloque el documento en una superficie oscura, bien iluminada con las 4 esquinas visibles, presione el botón Snap Photo (tomar foto) cuando esté listo</string>
+<string name="ghost_image_remittance">Centre el talón del recibo de pago aquí y espere, le tomaremos la foto</string>
+<string name="ghost_image_remittance_manual">Centre el talón del recibo de pago aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo</string>
+<string name="ghost_image_check">Centre el cheque aquí y espere, le tomaremos la foto</string>
+<string name="ghost_image_check_manual">Centre el cheque aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo</string>
+<string name="ghost_image_drivers_license">Centre la licencia de conducir aquí y espere, le tomaremos la foto</string>
+<string name="ghost_image_drivers_license_manual">Centre la licencia de conducir aquí, a continuación presione el botón Snap Photo (tomar foto) cuando esté listo</string>
+<string name="button_cancel">Cancelar</string>
+<string name="more_light">Más luz</string>
+<string name="hold_steady">Mantener estable</string>
+<string name="get_close">Acercamiento</string>
+<string name="hold_center">Centrar</string>
+<string name="misnap_overlay_cancel_button">Cancelar</string>
+<string name="misnap_overlay_capture_button">Capturar imagen</string>
+<string name="misnap_overlay_flash_toggle">Flash</string>
+<string name="misnap_overlay_help_button">Ayuda</string>
+*/

@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  MiSnap
+
+  Copyright (c) 2014 Mitek Systems, Inc. All rights reserved.
+*/
+
+"dialog_mitek_cancel"           = "Cancel";
+"dialog_mitek_capture"          = "Continue";
+"dialog_mitek_try_again"        = "Try Again";
+"dialog_mitek_manual_capture"   = "Manual Capture";
+"misnap_check_front_text"       = "Front Image";
+"misnap_check_back_text"        = "Back Image";
+
+"misnap_tutorial_check"                 = "Center the check on the screen, hold still, and we will take the photo for you.";
+"misnap_tutorial_document"              = "Center the document on the screen, hold still, and we will take the photo for you.";
+"help_failover_check"                   = "Center the check with all four corners visible and press the snap photo button when ready.";
+"help_failover_document"                = "Center the document with all four corners visible and press the snap photo button when ready.";
+"help_check"                            = "Try placing the check on a dark well lit surface and hold still, we will take the photo for you.";
+"help_document"                         = "Try placing the document on a dark well lit surface and hold still, we will take the photo for you.";
+"help_manual_check"                     = "Place the check on a dark well lit surface with all four corners visible, press the snap photo button when ready";
+"help_manual_document"                  = "Place the document on a dark well lit surface with all four corners visible, press the snap photo button when ready";
+"ghost_image_remittance"                = "Center payment stub here and wait, we will take the photo for you";
+"ghost_image_remittance_manual"         = "Center payment stub here, then press the Snap Photo button when ready";
+"ghost_image_check"                     = "Center check here and wait, we will take the photo for you";
+"ghost_image_check_manual"              = "Center check here, then press the Snap Photo button when ready";
+"ghost_image_drivers_license"           = "Center driver\'s license here and wait, we will take the photo for you";
+"ghost_image_drivers_license_manual"    = "Center driver\'s license here, then press the Snap Photo button when ready";
+"ghost_image_insurance_card"            = "Center insurance card here and wait, we will take the photo for you";
+"ghost_image_vin_manual"                = "Center VIN here then press the snap photo button when ready";
+"ghost_image_w2"                        = "Center W2 here and wait, we will take the photo for you";
+"ghost_image_w2_manual"                 = "Center W2 here, then press the Snap Photo button when ready";
+"ghost_image_document_landscape"        = "Center card here and wait, we will take the photo for you";
+"ghost_image_document_landscape_manual" = "Center card here, then press the Snap Photo button when ready";
+"ghost_image_document_portrait"         = "Center document here and wait, we will take the photo for you";
+"ghost_image_document_portrait_manual"  = "Center document here, then press the Snap Photo button when ready";
+
+"button_cancel"                 = "Cancel";
+"more_light"                    = "More light";
+"hold_steady"                   = "Hold steady";
+"get_close"                     = "Get closer";
+"get_further"                   = "Get further away";
+"hold_center"                   = "Center";
+"misnap_overlay_cancel_button"  = "Cancel";
+"misnap_overlay_capture_button" = "Capture image";
+"misnap_overlay_flash_toggle"   = "Flash";
+"misnap_overlay_help_button"    = "Help";
+
+/*
+<string name="dialog_mitek_cancel">Cancel</string>
+<string name="dialog_mitek_capture">Continue</string>
+<string name="dialog_mitek_try_again">Try Again</string>
+<string name="dialog_mitek_manual_capture">Manual Capture</string>
+<string name="misnap_check_front_text">Front Image</string>
+<string name="misnap_check_back_text">Back Image</string>
+<string name="misnap_overlay_cancel_button">Cancel</string>
+<string name="misnap_overlay_capture_button">Capture image</string>
+<string name="misnap_overlay_flash_toggle">Flash</string>
+<string name="misnap_overlay_help_button">Help</string>
+ 
+<string name="misnap_tutorial_check">Center the check on the screen, hold steady, and we\'ll take the picture for you.</string>
+<string name="misnap_tutorial_document">Center the document on the screen, hold steady, and we\'ll take the picture for you.</string>
+<string name="help_failover_check">Center the check with all 4 corners visible and press the snap photo button when ready.</string>
+<string name="help_failover_document">Center the document with all 4 corners visible and press the snap photo button when ready.</string>
+<string name="help_check">Try placing the check on a dark well lit surface and hold still, we\'ll take the photo for you.</string>
+<string name="help_document">Try placing the document on a dark well lit surface and hold still, we\'ll take the photo for you.</string>
+<string name="help_manual_check">Place the check on a dark well lit surface with all 4 corners visible, press the snap photo button when ready</string>
+<string name="help_manual_document">Place the document on a dark well lit surface with all 4 corners visible, press the snap photo button when ready</string>
+<string name="ghost_image_remittance">Center payment stub here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_remittance_manual">Center payment stub here, then press the Snap Photo button when ready</string>
+<string name="ghost_image_check">Center check here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_check_manual">Center check here, then press the Snap Photo button when ready</string>
+<string name="ghost_image_drivers_license">Center driver\'s license here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_drivers_license_manual">Center driver\'s license here, then press the Snap Photo button when ready</string>
+<string name="ghost_image_insurance_card">Center insurance card here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_vin_manual">Center VIN here then press the snap photo button when ready</string>
+<string name="ghost_image_w2">Center W2 here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_w2_manual">Center W2 here, then press the Snap Photo button when ready</string>
+<string name="ghost_image_document_landscape">Center card here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_document_landscape_manual">Center card here, then press the Snap Photo button when ready</string>
+<string name="ghost_image_documet_portrait">Center document here and wait, we\'ll take the photo for you</string>
+<string name="ghost_image_documet_portrait_manual">Center document here, then press the Snap Photo button when ready</string>
+ */

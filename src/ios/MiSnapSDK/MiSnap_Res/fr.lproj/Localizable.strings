@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  MiSnap
+
+  Copyright (c) 2014 Mitek Systems, Inc. All rights reserved.
+*/
+
+"dialog_mitek_cancel"           = "Annuler";
+"dialog_mitek_capture"          = "Continuer";
+"dialog_mitek_try_again"        = "Essayer de nouveau";
+"dialog_mitek_manual_capture"   = "Capture Manuelle";
+"misnap_check_front_text"       = "Recto de l’image";
+"misnap_check_back_text"        = "Verso de l’image";
+
+"misnap_tutorial_check"                 = "Centrez le chèque, la photo sera prise automatiquement";
+"misnap_tutorial_document"              = "Centrez le document, la photo sera prise automatiquement";
+"help_failover_check"                   = "Centrez le chèque de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic.";
+"help_failover_document"                = "Centrez le document de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic.";
+"help_check"                            = "Placez le chèque sur une surface foncée et bien éclairée. Ne le bougez plus, nous allons prendre la photo pour vous.";
+"help_document"                         = "Placez le document sur une surface foncée et bien éclairée. Ne le bougez plus, nous allons prendre la photo pour vous.";
+"help_manual_check"                     = "Placez le chèque sur une surface foncée et bien éclairée de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic";
+"help_manual_document"                  = "Placez le document sur une surface foncée et bien éclairée de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton  de Déclic";
+"ghost_image_remittance"                = "Centrez le talon de paiement ici et attendez, nous allons prendre la photo pour vous";
+"ghost_image_remittance_manual"         = "Centrez le talon paiement et appuyez sur le bouton de Déclic lorsque vous êtes prêt";
+"ghost_image_check"                     = "Centrez le chèque ici et attendez, nous allons prendre la photo pour vous";
+"ghost_image_check_manual"              = "Centrez le chèque et appuyez sur le bouton de Déclic  lorsque vous êtes prêt";
+"ghost_image_drivers_license"           = "Centrez le permis de conduire ici et attendez, nous allons prendre la photo pour vous";
+"ghost_image_drivers_license_manual"    = "Centrez le permis de conduire et appuyez sur le bouton de Déclic lorsque vous êtes prêt";
+"ghost_image_documet_portrait"          = "Centrez le document ici et attendez, nous allons prendre la photo pour vous";
+"ghost_image_documet_portrait_manual"   = "Centrez le document et appuyez sur le bouton de Déclic  lorsque vous êtes prêt";
+
+"more_light" = "Plus de lumière";
+"hold_steady" = "Ne pas bouger";
+"get_close" = "Se rapprocher";
+"hold_center" = "Centrer";
+"button_cancel" = "Annuler";
+"misnap_overlay_cancel_button" = "d\’annulation";
+"misnap_overlay_capture_button" = "de saisie d\’image";
+"misnap_overlay_flash_toggle" = "de flash";
+"misnap_overlay_help_button" = "d\’aide";
+
+/*
+ <string name="dialog_mitek_cancel">Annuler</string>
+ <string name="dialog_mitek_capture">Continuer</string>
+ <string name="dialog_mitek_try_again">Essayer de nouveau</string>
+ <string name="dialog_mitek_manual_capture">Capture manuelle</string>
+ <string name="misnap_check_front_text">Recto de l’image</string>
+ <string name="misnap_check_back_text">Verso de l’image</string>
+ 
+ <string name="misnap_tutorial_check">Centrez le chèque, la photo sera prise automatiquement</string>
+ <string name="misnap_tutorial_document">Centrez le document, la photo sera prise automatiquement</string>
+ <string name="help_failover_check">Centrez le chèque de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic.</string>
+ <string name="help_failover_document">Centrez le document de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic.</string>
+ <string name="help_check">Placez le chèque sur une surface foncée et bien éclairée. Ne le bougez plus, nous allons prendre la photo pour vous.</string>
+ <string name="help_document">Placez le document sur une surface foncée et bien éclairée. Ne le bougez plus, nous allons prendre la photo pour vous.</string>
+ <string name="help_manual_check">Placez le chèque sur une surface foncée et bien éclairée de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic</string>
+ <string name="help_manual_document">Placez le document sur une surface foncée et bien éclairée de sorte que les 4 coins soient visibles. Lorsque vous êtes prêt, appuyez sur le bouton de Déclic</string>
+ <string name="ghost_image_remittance">Centrez le talon de paiement ici et attendez, nous allons prendre la photo pour vous</string>
+ <string name="ghost_image_remittance_manual">Centrez le talon paiement et appuyez sur le bouton de Déclic lorsque vous êtes prêt</string>
+ <string name="ghost_image_check">Centrez le chèque ici et attendez, nous allons prendre la photo pour vous</string>
+ <string name="ghost_image_check_manual">Centrez le chèque et appuyez sur le bouton de Déclic  lorsque vous êtes prêt</string>
+ <string name="ghost_image_drivers_license">Centrez le permis de conduire ici et attendez, nous allons prendre la photo pour vous</string>
+ <string name="ghost_image_drivers_license_manual">Centrez le permis de conduire et appuyez sur le bouton de Déclic lorsque vous êtes prêt</string>
+ <string name="ghost_image_documet_portrait">Centrez le document ici et attendez, nous allons prendre la photo pour vous</string>
+ <string name="ghost_image_documet_portrait_manual">Centrez le document et appuyez sur le bouton de Déclic  lorsque vous êtes prêt</string>
+ 
+ <string name="more_light">Plus de lumière</string>
+ <string name="hold_steady">Ne pas bouger</string>
+ <string name="get_close">Se rapprocher</string>
+ <string name="hold_center">Centrer</string>
+ <string name="button_cancel">Annuler</string>
+ <string name="misnap_overlay_cancel_button">d\’annulation</string>
+ <string name="misnap_overlay_capture_button">de saisie d\’image</string>
+ <string name="misnap_overlay_flash_toggle">de flash</string>
+ <string name="misnap_overlay_help_button">d\’aide</string>
+ */
